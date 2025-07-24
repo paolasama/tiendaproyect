@@ -1,30 +1,24 @@
-\# Backend - Spring Boot
+# 🖥 Backend – Spring Boot
 
+Este proyecto representa el **servidor (API REST)** de la aplicación y está desarrollado con **Spring Boot**.
 
+---
 
-Este proyecto es la parte del servidor de la aplicación. Está construido con Spring Boot.
+## 🔧 Requisitos previos
 
+- Java 17 o superior
+- Maven (o usar el wrapper `./mvnw` incluido)
 
+---
 
-\## 🔧 Requisitos
+## 🚀 Cómo ejecutar el backend
 
-
-
-\- Java 17 o superior
-
-\- Maven
-
-
-
-\## 🚀 Cómo ejecutar
-
-
+### Opción 1: Usando el wrapper Maven incluido
 
 ```bash
-
 cd backend
-
 ./mvnw spring-boot:run
+
 
 
 
