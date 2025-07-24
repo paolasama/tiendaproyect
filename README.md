@@ -10,7 +10,7 @@ Este repositorio contiene una aplicación completa con:
 ## 📁 Estructura del Proyecto
 ```tiendaproyect/
 ├── backend/ ← Proyecto Spring Boot (Java)
-├── tienda/ ← Proyecto Angular (TypeScript)
+├── Frontend/ ← Proyecto Angular (TypeScript)
 └── README.md ← Este archivo
 ```
 ---
