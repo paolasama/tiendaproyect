@@ -2,7 +2,7 @@
 
 Este repositorio contiene una aplicación completa con:
 
-- 🖥️ **Backend**: Spring Boot (`/backend`)
+- 🖥️ **Backend**: Spring Boot (`/product`)
 - 🌐 **Frontend**: Angular (`/tienda`)
 
 ---
