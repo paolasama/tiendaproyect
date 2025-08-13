@@ -3,7 +3,7 @@
 Este repositorio contiene una aplicación completa con:
 
 - 🖥️ **Backend**: Spring Boot (`/product`)
-- 🌐 **Frontend**: Angular (`/tienda`)
+- 🌐 **Frontend**: Angular (`/salud`)
 
 ---
 
@@ -25,6 +25,6 @@ Este repositorio contiene una aplicación completa con:
 ### ⚙️ Instalación y ejecución
 
 ```bash
-cd tienda
+cd salud
 npm install
 ng serve
