@@ -7,7 +7,7 @@ import { Empleado } from './empleado.model'; // Asegúrate de que la ruta sea co
   providedIn: 'root'
 })
 export class EmpleadoService {
-  private apiUrl = 'http://localhost:8080/api/empleados';
+  private apiUrl = 'http://localhost:8080/api/v1/empleados';
 
   constructor(private http: HttpClient) { }
 

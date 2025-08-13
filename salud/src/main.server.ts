@@ -1,3 +1,4 @@
+import 'zone.js/node'; // Zone.js para SSR
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component'; // Importa el componente correcto
 import { appConfig } from './app/app.config'; // Configuración del cliente

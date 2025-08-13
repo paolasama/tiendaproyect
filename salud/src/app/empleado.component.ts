@@ -58,7 +58,7 @@ import { MatListModule } from '@angular/material/list';
 
     <!-- Mensaje cuando no hay empleado -->
     <div *ngIf="!empleado" class="no-empleado">
-      No se ha proporcionado información del empleado
+      No se ha proporcionado información del empleado.
     </div>
   `,
   styles: [`

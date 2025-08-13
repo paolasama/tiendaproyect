@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "empleados") // Opcional - define el nombre de la tabla en la BD
+@Table(name = "empleados") // Opcional: define el nombre de la tabla en la BD
 public class Empleado {
     
     @Id
