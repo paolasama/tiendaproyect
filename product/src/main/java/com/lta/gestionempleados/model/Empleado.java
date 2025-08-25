@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.Version;
 
 @Entity
 @Table(name = "empleados") // Opcional: define el nombre de la tabla en la BD
@@ -17,6 +18,10 @@ public class Empleado {
     private String nombre;
     private String apellido;
     private String email;
+
+    // Control de concurrencia optimista
+    @Version
+    private Long version;
 
     // Constructor vacío requerido por JPA
     public Empleado() {
@@ -60,5 +65,13 @@ public class Empleado {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Long getVersion() {
+        return version;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
     }
 }
